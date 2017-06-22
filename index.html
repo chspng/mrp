@@ -1,131 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="A narrative data visualization on homelessness and health">
     <meta name="author" content="Christine P'ng">
     <link rel="icon" href="img/icon.ico">
 
+
     <title>Tale of Two Adams</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css"> -->
 
-    <!-- Custom styles for this template -->
-    <!-- <link href="css/jumbotron-narrow.css" rel="stylesheet"> -->
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
 
-  <body id="page-top">
-
-    <div class="container fancy-font">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Credits</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Tale of Two Adams</h3>
-      </div>
+</head>
 
 
-    <header>
-    <div class="header-content">
+<body id="page-top">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top bg-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> 
+            <a class="navbar-brand page-scroll fancy-font" href="#page-top" style="font-family: 'Cabin Sketch', cursive; text-transform: initial;" >Tale of Two Adams</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="#about" style="font-weight: 300;">About</a>
+                </li>
+
+                <li>
+                    <a class="page-scroll" href="#committee" style="font-weight: 300;">Committee</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+  <header>
+	  <div class="header-content">
         <div class="header-content-inner" >
-      <!-- <div class="jumbotron"> -->
-        <h1 class="fancy-font">Tale of Two Adams</h1>
-        <p class="lead">This is a narrative data visualization on homelessness and health, following the lives of two characters, Adam A and Adam B.</p>
+            <h1 class="display-1 fancy-font" style="color:white; text-transform: initial;">Tale of Two Adams</h1>
+            <!-- <hr> -->
+            <br>
+            <br>
+            <p class="lead">This is a narrative data visualization on homelessness and health, <br>following the lives of two characters, Adam A and Adam B.
+            <br><br>They are very similar but for one main difference: <br>Adam B is homeless and Adam A is housed.</p>
+            
+            <p><button class="button" href="#" role="button">begin story</button></p>
+            
+            <a class="page-scroll" href="#about" style="text-decoration: none; color:#e16964; font-size: 130%;">Learn more about the project</a>
+            <!-- <a href="#portfolio" class="page-scroll"><i class="fa fa-3x fa-arrow-down enter-link"></i></a> -->
+           
+            <div class="vertical_space"></div>
 
-        <p> They are very similar but for one main difference: <br>Adam B is homeless and Adam A is housed.</p>
-        <p><button class="button" href="#" role="button">begin story</button></p>
-        <a href="">Learn more about the project</a>
-      <!-- </div> -->
-      </div>
-      </div>
-	</header>
+        </div>
+    </div>
+</header>
 
-	<section id="about">
-      <div class="row marketing">
-        <div class="col-lg-12">
-          <h4>About the Project</h4>
+  <section id="about">
+	
+	<div class="container-fluid">
+ 		<div class="row no-gutter col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2">
+ 			 
+      
+          <h2 class="fancy-font">About the Project</h2>
           <p><em>A Tale of Two Adams</em> was completed by Christine P'ng as a Master's Research Project submitted in conformity with the requirements for the degree of Master of Science in Biomedical Communications (MScBMC). Offered through the Institute of Medical Science, Faculty of Medicine, University of Toronto in collaboration with Biomedical Communications, Department of Biology, University of Toronto Mississauga.</p>
 
           <p>The goal of this project is to create a narrative data visualization of the relationship between homelessness and mortality that improves understanding of and encourages empathy towards Canadians who are experiencing homelessness.</p>
 
           <p>The data from the project comes from a research study on homelessness and mortality rates in Canada. It used census data from 1991-2001 to investigate mortality rates, remaining life expectancies at age 25, and probability of survival from age 25 to 75. It found that living in shelters, rooming houses and hotels is associated with much higher mortality than would be expected on the basis of low income alone.</p>
 
-          <p>The original paper can be accessed <a href="http://www.bmj.com/content/339/bmj.b4036">here</a>, or can be referenced as</p>
+          <p>The original paper can be accessed <a href="http://www.bmj.com/content/339/bmj.b4036" style="text-decoration: none; color:#e16964;">here</a>, or can be referenced as</p>
           
-		  <p class="indent">Hwang Stephen W, Wilkins Russell, Tjepkema Michael, O’Campo Patricia J, Dunn James R. Mortality among residents of shelters, rooming houses, and hotels in Canada: 11 year follow-up study <em>BMJ</em> 2009; 339 :b4036</p>
- 			</div>
-      	</div>
-      </section>
+          <p class="indent">Hwang Stephen W, Wilkins Russell, Tjepkema Michael, O’Campo Patricia J, Dunn James R. Mortality among residents of shelters, rooming houses, and hotels in Canada: 11 year follow-up study <em>BMJ</em> 2009; 339 :b4036</p>
+      </div>
+        
+ 		</div>
+ 	</div>
 
-      <section id="committee">
-		<div class="row marketing">
-        <div class="col-lg-12">
-          <h4>Supervisory Committee</h4>
+</section>
+
+<section id="committee">
+  <div class="container-fluid">
+	 <div class="row no-gutter col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2">
+
+	     <h2 class="fancy-font">Supervisory Committee</h2>
                            
-          <div class="col-lg-3">
-          	<p>Supervisor</p>
+          <div class="col-xs-3">
+            <p>Supervisor</p>
           </div>
-          <div class="col-lg-9">
-			<p><b>Professor Michael Corrin</b>, BFA, BA, Hons BSc, MScBMC, CMI
-			<br>Assistant Professor Teaching Stream, Biomedical Communncations, University of Toronto</p>
-          </div>
-
-          <div class="col-lg-3">
-          	<p>Content Advisor</p>
-          </div>
-          <div class="col-lg-9">
-			<p><b>Dr. Stephen Hwang</b>, MD, MPH
-			<br>Scientist, Li Ka Shing Knowledge Institute, St. Michael’s Hospital
-			<br>Staff Physician, Division of General Internal Medicine, St. Michael’s Hospital
-			<br>Director, Division of General Internal Medicine, University of Toronto
-			<br>Professor, Department of Medicine, University of Toronto
-			<br>Professor, Dalla Lana School of Public Health, University of Toronto
-			<br>Professor, Institute of Health Policy, Management and Evaluation, University of Toronto</p>
+          <div class="col-xs-9">
+            <p><b>Professor Michael Corrin</b>, BFA, BA, Hons BSc, MScBMC, CMI
+            <br>Assistant Professor Teaching Stream, Biomedical Communncations, University of Toronto</p>
           </div>
 
-          <div class="col-lg-3">
-          	<p>Second Voting Member</p>
+          <div class="col-xs-3">
+            <p>Content Advisor</p>
           </div>
-          <div class="col-lg-9">
-			<p><b>Dr. Jodie Jenkinson</b>, BA, MScBMC, PhD
-			<br>Assistant Professor, Biomedical Communications, University of Toronto</p>
+          <div class="col-xs-9">
+            <p><b>Dr. Stephen Hwang</b>, MD, MPH
+            <br>Scientist, Li Ka Shing Knowledge Institute, St. Michael’s Hospital
+            <br>Staff Physician, Division of General Internal Medicine, St. Michael’s Hospital
+            <br>Director, Division of General Internal Medicine, University of Toronto
+            <br>Professor, Department of Medicine, University of Toronto
+            <br>Professor, Dalla Lana School of Public Health, University of Toronto
+            <br>Professor, Institute of Health Policy, Management and Evaluation, University of Toronto</p>
+          </div>
+
+          <div class="col-xs-3">
+            <p>Second Voting Member</p>
+          </div>
+          <div class="col-xs-9">
+            <p><b>Dr. Jodie Jenkinson</b>, BA, MScBMC, PhD
+            <br>Assistant Professor, Biomedical Communications, University of Toronto</p>
           </div>
         </div>
-      </div>
-     </section>
+	   </div>
+  </div>
+</section>
 
-      <footer class="footer">
-        <p>&copy; 2017 Christine P'ng</p>
-      </footer>
+<footer class="footer text-center">
+  <p>&copy; 2017 Christine P'ng</p>
+</footer>
 
-    </div> <!-- /container -->
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
 
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/wow.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/creative.js"></script>
+
+</body>
+
 </html>
+
