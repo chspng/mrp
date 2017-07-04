@@ -46,3 +46,11 @@ p{
   font-weight: 300;
   letter-spacing: 1px;
 }
+
+.vertical_space{
+  margin-top: 50px;
+}
+
+.share_btn{
+  margin-bottom: 15px; 
+}

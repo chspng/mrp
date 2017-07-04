@@ -10,6 +10,13 @@
     <meta name="author" content="Christine P'ng">
     <link rel="icon" href="img/icon.ico">
 
+    <!-- Sharing links -->
+    <meta property="og:url"           content="http://www.taleoftwoadams.com" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Tale of Two Adams" />
+  <meta property="og:description"   content="A narrative data visualization about homelessness and health" />
+  <!-- <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" /> -->
+
 
     <title>Tale of Two Adams</title>
 
@@ -19,7 +26,7 @@
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
@@ -34,11 +41,27 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
 
 </head>
 
 
 <body id="page-top">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top bg-inverse">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -71,7 +94,7 @@
 </nav>
 
   <header>
-	  <div class="header-content">
+    <div class="header-content">
         <div class="header-content-inner" >
             <h1 class="display-1 fancy-font" style="color:white; text-transform: initial;">Tale of Two Adams</h1>
             <!-- <hr> -->
@@ -87,15 +110,34 @@
            
             <div class="vertical_space"></div>
 
+            <div class="col-md-12">
+                
+                <div class="fb-share-button share_btn" data-href="https://taleoftwoadams.com" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaleoftwoadams.com%2F&amp;src=sdkpreparse">Share</a></div>
+            
+            
+                <div class="share_btn">
+                  <a class="twitter-share-button"
+                  href="https://twitter.com/intent/tweet?"
+                  data-size="large">
+                  Tweet</a>
+                </div>
+
+                <!-- Place this tag where you want the share button to render. -->
+                <div class="g-plus share_btn" data-action="share" data-annotation="none" data-height="24"></div>
+                
+            </div>
+            
+
+     
         </div>
     </div>
 </header>
 
   <section id="about">
-	
-	<div class="container-fluid">
- 		<div class="row no-gutter col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2">
- 			 
+  
+  <div class="container-fluid">
+    <div class="row no-gutter col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2">
+       
       
           <h2 class="fancy-font">About the Project</h2>
           <p><em>A Tale of Two Adams</em> was completed by Christine P'ng as a Master's Research Project submitted in conformity with the requirements for the degree of Master of Science in Biomedical Communications (MScBMC). Offered through the Institute of Medical Science, Faculty of Medicine, University of Toronto in collaboration with Biomedical Communications, Department of Biology, University of Toronto Mississauga.</p>
@@ -109,16 +151,16 @@
           <p class="indent">Hwang Stephen W, Wilkins Russell, Tjepkema Michael, O’Campo Patricia J, Dunn James R. Mortality among residents of shelters, rooming houses, and hotels in Canada: 11 year follow-up study <em>BMJ</em> 2009; 339 :b4036</p>
       </div>
         
- 		</div>
- 	</div>
+    </div>
+  </div>
 
 </section>
 
 <section id="committee">
   <div class="container-fluid">
-	 <div class="row no-gutter col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2">
+   <div class="row no-gutter col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2">
 
-	     <h2 class="fancy-font">Supervisory Committee</h2>
+       <h2 class="fancy-font">Supervisory Committee</h2>
                            
           <div class="col-xs-3">
             <p>Supervisor</p>
@@ -149,7 +191,7 @@
             <br>Assistant Professor, Biomedical Communications, University of Toronto</p>
           </div>
         </div>
-	   </div>
+     </div>
   </div>
 </section>
 
